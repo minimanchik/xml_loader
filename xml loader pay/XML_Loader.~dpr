@@ -1,0 +1,16 @@
+program XML_Loader;
+
+uses
+  Forms,
+  Unit1 in '..\11.09.2017 xml loader\Unit1.pas' {Form1};
+
+{$R *.res}
+
+begin
+
+  Application.Initialize;
+  Application.Title := 'XML Loader';
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+
+end.
