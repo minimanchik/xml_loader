@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessRegPayOrder xsi:noNamespaceSchemaLocation="ProcessRegPayOrder.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versionID="4.0" systemEnvironmentCode="ASFK" releaseID="0.0.15">
+  <ApplicationArea>
+    <Sender>
+      <LogicalID>2200</LogicalID>
+      <Role>ASFK</Role>
+    </Sender>
+    <CreationDateTime>2019-05-15T12:49:54+10:00</CreationDateTime>
+    <BODId>88E53441-1450-06A8-E053-0A1606127439</BODId>
+    <UserArea>
+      <Group ID="Core">
+        <column name="RecipientLogicalID">9500</column>
+        <column name="Property">255</column>
+        <column name="Role">04223D50030</column>
+        <column name="MessageType">Document</column>
+        <column name="MessageCode">RPP</column>
+        <column name="UserName">VERGUNIV</column>
+      </Group>
+    </UserArea>
+  </ApplicationArea>
+  <DataArea>
+    <Process>Process</Process>
+    <Header>
+      <DocGUID>88E53441-1451-06A8-E053-0A1606127439</DocGUID>
+      <Number>3045287</Number>
+      <DocTypeCode>RPP</DocTypeCode>
+      <DocBudgetCode>99010001</DocBudgetCode>
+      <DocBusinessStatus>999</DocBusinessStatus>
+      <DocApprovalStatus>У--</DocApprovalStatus>
+      <DocTransferStatus>П00</DocTransferStatus>
+      <DocTofkCode>2200</DocTofkCode>
+      <DocSegmentCode>1</DocSegmentCode>
+      <CreateDateTime>2019-05-14</CreateDateTime>
+      <CMS>
+        <Version/>
+        <DigitalSignature/>
+      </CMS>
+      <Attachment>
+        <FileBody/>
+        <FileDescription/>
+        <FileName/>
+        <FileContentType/>
+      </Attachment>
+      <Report>
+        <GUID_FK>88CEDC17-661F-0506-E053-0A1606123AA5</GUID_FK>
+        <NOM_El_MES>239288</NOM_El_MES>
+        <DATE_El_MES>2019-05-14</DATE_El_MES>
+        <ID_El_MES>2202603000</ID_El_MES>
+        <NOM_PP>193428</NOM_PP>
+        <DATE_PP>2019-05-14</DATE_PP>
+        <SUM_PP>1562331</SUM_PP>
+        <INN_PLAT_PP>7707083893</INN_PLAT_PP>
+        <KPP_PLAT_PP>526002001</KPP_PLAT_PP>
+        <KBK>02911105012040000120</KBK>
+        <OKATO>08701000</OKATO>
+        <PURPOSE_PP>//ПРИЛОЖЕНИЕ//ПЛАТЕЖИ ФИЗИЧЕСКИХ ЛИЦ (ED108);ПО ПРИНЯТЫМ ПЛАТЕЖАМ С 13/05/2019 ПО 13/05/2019;НА ОБЩУЮ СУММУ 15623.31,В КОЛ-ВЕ 8</PURPOSE_PP>
+        <INN_RCV_PP>2722081267</INN_RCV_PP>
+        <KPP_RCV_PP>272201001</KPP_RCV_PP>
+        <ID_KO>042202603</ID_KO>
+        <KOD_TOFK>2200</KOD_TOFK>
+        <FIO_ISP>Вергун Ирина Викторовна</FIO_ISP>
+        <TEL_ISP>74-77-49</TEL_ISP>
+        <RegPP>
+          <NOM_LINE>1</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>175544</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201943318181</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>0100000000000815360583643</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя1</FIO_PLAT>
+          <ADRESS_PLAT>адрес1</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>ПАО СБЕРБАНК</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя1;АДРЕС:адрес2;НАЗНАЧЕНИЕ:CID:28609,OID:55263,ПЕНЯ:0 АКТ О ФАКТЕ ИСПОЛЬЗОВАНИЯ ЗЕМЕЛЬНОГО УЧАСТКА №272 ОТ 23.01.2013;ВИД_ДОК:ПАСПОРТ РФ;Н</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>01;0815360583</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>2</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>254504</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201962571037</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>2700000000079990841774999</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя2</FIO_PLAT>
+          <ADRESS_PLAT>адрес2</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>ПАО СБЕРБАНК</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя2;АДРЕС:адрес2;НАЗНАЧЕНИЕ:АКТ ОФАКТЕ ИСПОЛЬЗОВАНИЯ ЗЕМ УЧ 3779 ОТ 11.05.16;ВИД_ДОК:НОМЕР МОБ ТЕЛ;НОМЕР ДОКУМЕНТА:02;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>27;79990841774</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>3</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>65000</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201972434617</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>0100000000000809845421643</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя3</FIO_PLAT>
+          <ADRESS_PLAT>адрес3</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>ПАО СБЕРБАНК</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя3;АДРЕС:адрес3;НАЗНАЧЕНИЕ:CID:32034,OID:57792,ПЕНЯ:0;ВИД_ДОК:ПАСПОРТ РФ;НОМЕР ДОКУМЕНТА:03;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>01;0809845421</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>4</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>297633</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201945733277</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>0100000000000800100276643</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>имя4</FIO_PLAT>
+          <ADRESS_PLAT>Адрес4</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>//имя4//Адрес4//</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:имя4;АДРЕС:Адрес4;НАЗНАЧЕНИЕ:CID:34640,OID:57777,ПЕНЯ:0;ВИД_ДОК:ПАСПОРТ РФ;НОМЕР ДОКУМЕНТА:04;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>01;0800100276</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>5</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>141768</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201939018418</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>2700000000079144037024999</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя5</FIO_PLAT>
+          <ADRESS_PLAT>Адрес5</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>ПАО СБЕРБАНК</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя5;АДРЕС:Адрес5;НАЗНАЧЕНИЕ:CID:31816,OID:55320,ПЕНЯ:0;ВИД_ДОК:НОМЕР МОБ ТЕЛ;НОМЕР ДОКУМЕНТА:05;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>27;79144037024</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>6</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>383125</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201913995530</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>0100000000000801488216643</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя6</FIO_PLAT>
+          <ADRESS_PLAT>Адрес6</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>ПАО СБЕРБАНК</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя6;АДРЕС:Адрес6;НАЗНАЧЕНИЕ:CID:30681,OID:56391,ПЕНЯ:0;ВИД_ДОК:ПАСПОРТ РФ;НОМЕР ДОКУМЕНТА:06;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>01;0801488216</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>7</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>206502</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201972505686</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>2700000000079626754423999</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя7</FIO_PLAT>
+          <ADRESS_PLAT>Адрес7</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>//Имя7//Адрес7//</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя7;АДРЕС:Адрес7;НАЗНАЧЕНИЕ:ИСПОЛЬЗОВАНИЕ ЗЕМЕЛЬНОГО УЧАСТКА;ВИД_ДОК:НОМЕР МОБ ТЕЛ;НОМЕР ДОКУМЕНТА:07;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>27;79626754423</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+        <RegPP>
+          <NOM_LINE>8</NOM_LINE>
+          <DATE_PAY_DOC>2019-05-13</DATE_PAY_DOC>
+          <DATE_REESTR_PP>2019-05-14</DATE_REESTR_PP>
+          <SUM_REESTR_PP>38255</SUM_REESTR_PP>
+          <ID_OPER>10408136080090701305201943334214</ID_OPER>
+          <PAYMENT_ID>0</PAYMENT_ID>
+          <ID_PLAT>2700000000079141947304999</ID_PLAT>
+          <INN_PLAT>0</INN_PLAT>
+          <FIO_PLAT>Имя8</FIO_PLAT>
+          <ADRESS_PLAT>Адрес8</ADRESS_PLAT>
+          <NOM_LS_PLAT>30233810642000600001</NOM_LS_PLAT>
+          <NAME_PLAT>//Имя8//Адрес8//</NAME_PLAT>
+          <INN_RCV>2722081267</INN_RCV>
+          <NOM_LS_RCV>40101810300000010001</NOM_LS_RCV>
+          <NAME_RCV>УФК по Хабаровскому краю (Комитет администрации г.Хабаровска по управлению Кировским районом л/с 04223D50030)</NAME_RCV>
+          <PURPOSE>ФИО_ПЛАТЕЛЬЩИКА:Имя8;АДРЕС:Адрес8;НАЗНАЧЕНИЕ:CID:33200,OID:54610,ПЕНЯ:0;ВИД_ДОК:НОМЕР МОБ ТЕЛ;НОМЕР ДОКУМЕНТА:08;ГРАЖДАНСТВО:РОССИЯ;</PURPOSE>
+          <PAYSTATUS>24</PAYSTATUS>
+          <OSNPLAT>0</OSNPLAT>
+          <NAL_PER>0</NAL_PER>
+          <NUM_DOK>27;79141947304</NUM_DOK>
+          <DATE_DOK>0</DATE_DOK>
+          <TYPE_PL>0</TYPE_PL>
+          <NOM_LS_OFK>04223D50030</NOM_LS_OFK>
+          <TRANSAC_INFO/>
+        </RegPP>
+      </Report>
+    </Header>
+  </DataArea>
+</ProcessRegPayOrder>
